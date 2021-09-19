@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+html, body {
+    height: 100%;
+}
+#login-body {
+    background: #50555e url(img/background.png) repeat top left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+form {
+    max-width: 475px;
+    background-color: #f1f2f4;
+    width: 90%;
+    height: 475px;
+    margin: 10px auto;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px rgba(23, 16, 25, 0.75);
+}
+#clip img {
+    display: block;
+    margin: 0px auto;
+}
+#clip {
+    width: 110px;
+    margin: 0px auto;
+    margin-top: -77px;
+}
+#hole {
+    height: 5px;
+    margin: -4px;
+    background: #50555e url(img/background.png) repeat top left;
+    box-shadow: 0px -2px rgba(23, 16, 25, 0.25);
+    border-radius: 2.5px;
+}
+h2 {
+    text-align: center;
+    display: block;
+    margin-top: 48px;
+    font-size: 36px;
+}
+p {
+    display: block;
+    color: #847c8b;
+    text-align: center;
+    font-size: 22px;
+    font-style: initial;
+}
+#form-container {
+    background-color: #e5e7e9;
+    width: 385px;
+    height: 169px;
+    margin: 0px auto;
+    margin-top: 44px;
+    border: 1px solid #a9a5a5;
+    border-radius: 5px;
+}
+input, button {
+    display: block;;
+    width: 100%;
+    
+}
+input {
+    border: none;
+}
+input[type="text"] {
+    font-size: 24px;
+    border-bottom: 1px solid #bec0c2;
+    height: 85px;
+    padding-left: 73px;
+    background: url(img/email-icon.png) no-repeat scroll;
+    background-position: calc(73px - 50px) calc(82px - 53px);
+}
+input[type="password"] {
+    font-size: 24px;
+    border-top: 1px solid white;
+    height: 84px;
+    padding-left: 73px;
+    background: url(img/password-icon.png) no-repeat scroll;
+    background-position: calc(73px - 50px) calc(82px - 53px);
+}
+button {
+    border-radius: 4px;
+    height: 74px;
+    margin: 0px auto;
+    margin-top: 27px;
+    width: 385px;
+    border: 1px solid #2a8b7b;
+    background: #5ac2b3 url(img/background-button.png) repeat top left;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 0px 1px 3px rgba(23, 16, 25, 0.55);
+    box-shadow: 0px 1px 3px rgba(23, 16, 25, 0.3);
+}
